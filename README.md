@@ -18,12 +18,12 @@ This is just mainly to learn how to use [Gradio](https://www.gradio.app/guides/q
 
 After running `python3 2-simple-web-app.py` command, the web app can be reached at http://127.0.0.1:7860. 
 
-# Stage 3 - Create a web app for image captioning
+## Stage 3 - Create a web app for image captioning
 Combining what we have on image captioning (in Stage 1) and on creating a web application (in Stage 2), we have [3-image-caption-webapp.py](./3-image-caption-webapp.py). 
 
 After running this Python script, you can specify the image in the app and ask it to generate the description of the image. 
 
-# Stage 4 - Image classification 
+## Stage 4 - Image classification 
 In the example that I followed, it uses the [ResNet model](https://pytorch.org/vision/stable/models/resnet.html) for image classification with the [sample code](https://pytorch.org/vision/stable/models.html#classification).
 
 Lesson learned: The versions of `torch` and `torchvision` have to be compatible. At the time of writing this readme, I'm using:
